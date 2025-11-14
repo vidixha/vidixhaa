@@ -7,30 +7,32 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
-
+locale: "en-US"
+title: "Akshata A Bhat" # Your Name
+title_separator: "|"
+name: "Akshata A Bhat"
+description: "AI/ML Engineer. VLMs, OCR, and Generative AI." # A short tagline from your resume
+url: "https://vidixhaa.github.io" # Or your custom domain
+repository: "vidixhaa/vidixhaa.github.io
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  name: "Akshata A Bhat"
+  avatar: "/images/profile.png" # You'll need to add a bio photo to /images/
+  bio: "AI/ML Engineer specializing in VLMs, Multimodality, and optimized inference pipelines."
+  location: "Bengaluru, India" # Or your preferred location
+  email: "your-email@example.com" # From your resume
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/akshataabhat/" # From your resume
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/vidixhaa" # From your resume
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://medium.com/@vidixha" # From your resume 
 
   # Academic websites
   academia         : # URL
